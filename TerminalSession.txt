@@ -9,10 +9,10 @@ cp myfile.txt myfile_copy.txt
 ls 
 mv myfile_copy.txt myfile2.txt
 mv myfile2.txt ~
-cd ~
-ls
-rm -r /workspaces/cli-basics-jamesbian-jb/myfile.txt
-rm -r /workspaces/cli-basics-jamesbian-jb/CLIBasicsFolder
+ls ~
+cd /workspaces/cli-basics-jamesbian-jb/
+rm CLIBasicsFolder/myfile.txt
+rm -r CLIBasicsFolder
 ls ~
 git add -A
 
